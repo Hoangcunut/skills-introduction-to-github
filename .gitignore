@@ -35,3 +35,13 @@
 .Trashes
 ehthumbs.db
 Thumbs.db
+
+# Screenshot files #
+####################
+screenshot_*.png
+
+# Python cache #
+################
+__pycache__/
+*.pyc
+*.pyo

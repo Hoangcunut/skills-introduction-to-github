@@ -36,6 +36,41 @@ In this course, you will:
 3. Open a pull request
 4. Merge your pull request
 
+## Screenshot Tool / Công cụ chụp màn hình
+
+This repository includes a simple screenshot tool that allows you to capture your screen.
+
+### Installation
+
+First, install the required dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+### Usage
+
+**Basic usage (auto-generate filename):**
+```bash
+python screenshot_tool.py
+```
+
+**Custom filename:**
+```bash
+python screenshot_tool.py myscreen.png
+```
+
+The tool will save screenshots in PNG format to the current directory.
+
+### Features
+
+- 📸 Capture full screen screenshots
+- ⏰ Auto-generate filenames with timestamps
+- 🎯 Simple command-line interface
+- 🌏 Bilingual support (English/Vietnamese)
+
+---
+
 ### How to start this course
 
 <!-- For start course, run in JavaScript:
