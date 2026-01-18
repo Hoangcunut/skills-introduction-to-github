@@ -11,8 +11,8 @@ from datetime import datetime
 try:
     import pyautogui
 except ImportError:
-    print("Error: pyautogui is not installed.")
-    print("Please install it using: pip install pyautogui")
+    print("Error: Required dependencies are not installed.")
+    print("Please install them using: pip install -r requirements.txt")
     sys.exit(1)
 
 
